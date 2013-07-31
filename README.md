@@ -1,4 +1,4 @@
-![Logo](img/logo_CMW.png)
+![Logo](img/Logo_CMW_s400.png)
 #创意媒体工作室™ 网站首页项目
 
 - 最近更新：2013/7/31
