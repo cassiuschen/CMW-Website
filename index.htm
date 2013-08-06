@@ -235,32 +235,56 @@
 
         <div class="navbar navbar-inverse position:fixed;">
           <div class="navbar-inner">
-            <!-- Responsive Navbar Part 1: Button for triggering responsive navbar (not covered in tutorial). Include responsive CSS to utilize. -->
+            <!-- Nav.Head -->
             <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
             <a class="brand" href="http://www.bootcss.com/examples/carousel.html#">创意媒体工作室™</a>
-            <!-- Responsive Navbar Part 2: Place all navbar contents you want collapsed withing .navbar-collapse.collapse. -->
+            <!-- Nav-->
             <div class="nav-collapse collapse">
               <ul class="nav">
-                <li class="active"><a href="http://www.bootcss.com/examples/carousel.html#">Home</a></li>
-                <li><a href="http://www.bootcss.com/examples/carousel.html#about">About</a></li>
-                <li><a href="http://www.bootcss.com/examples/carousel.html#contact">Contact</a></li>
-                <!-- Read about Bootstrap dropdowns at http://twitter.github.com/bootstrap/javascript.html#dropdowns -->
-                <li class="dropdown">
-                  <a href="http://www.bootcss.com/examples/carousel.html#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                  <!-- Nav-1-->
+                <li class="active"><a href="http://thecmw.cn/"><i class="icon-home icon-white"></i> 首页</a></li>
+                  <!-- Nav-2 -->
+                  <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-info-sign icon-white"></i> 关于我们 <b class="caret"></b></a>
                   <ul class="dropdown-menu">
-                    <li><a href="http://www.bootcss.com/examples/carousel.html#">Action</a></li>
-                    <li><a href="http://www.bootcss.com/examples/carousel.html#">Another action</a></li>
-                    <li><a href="http://www.bootcss.com/examples/carousel.html#">Something else here</a></li>
+                    <li><a href="index_html/intro.html">概况</a></li>
+                      <li class="divider"></li>
+                      <li class="nav-header">部署结构</li>
+                    <li><a href="index_html/intro.html#megazine">杂志编辑中心</a></li>
+                    <li><a href="http://www.bootcss.com/examples/carousel.html#">平面设计中心</a></li>
+                    <li><a href="http://www.bootcss.com/examples/carousel.html#">影像中心</a></li>
+                       <li><a href="http://www.bootcss.com/examples/carousel.html#">舞台艺术中心</a></li>
+                    <li><a href="http://www.bootcss.com/examples/carousel.html#">网络技术中心</a></li>
+                    <li><a href="http://www.bootcss.com/examples/carousel.html#">公共关系与市场发行中心</a></li>
                     <li class="divider"></li>
-                    <li class="nav-header">Nav header</li>
-                    <li><a href="http://www.bootcss.com/examples/carousel.html#">Separated link</a></li>
-                    <li><a href="http://www.bootcss.com/examples/carousel.html#">One more separated link</a></li>
+                    <li class="nav-header">年报</li>
+                    <li><a href="http://www.bootcss.com/examples/carousel.html#">2013年度年报</a></li>
                   </ul>
                 </li>
+                  <!-- Nav-3 -->
+                     <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-tasks icon-white"></i> 工作室作品<b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="http://www.bootcss.com/examples/carousel.html#">概况</a></li>
+                      <li class="divider"></li>
+                      <li class="nav-header">部署结构</li>
+                    <li><a href="http://www.bootcss.com/examples/carousel.html#">杂志编辑中心</a></li>
+                    <li><a href="http://www.bootcss.com/examples/carousel.html#">平面设计中心</a></li>
+                    <li><a href="http://www.bootcss.com/examples/carousel.html#">影像中心</a></li>
+                       <li><a href="http://www.bootcss.com/examples/carousel.html#">舞台艺术中心</a></li>
+                    <li><a href="http://www.bootcss.com/examples/carousel.html#">网络技术中心</a></li>
+                    <li><a href="http://www.bootcss.com/examples/carousel.html#">公共关系与市场发行中心</a></li>
+                    <li class="divider"></li>
+                    <li class="nav-header">年报</li>
+                    <li><a href="http://www.bootcss.com/examples/carousel.html#">2013年度年报</a></li>
+                  </ul>
+                </li>
+                  <!-- Nav-4 -->
+                <li><a href="#myModal" data-toggle="modal"><i class="icon-comment icon-white"></i> 联系我们</a></li>                  
               </ul>
             </div><!--/.nav-collapse -->
           </div><!-- /.navbar-inner -->
@@ -279,24 +303,35 @@
           <img src="img/slide-01.jpg" alt="">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Example headline.</h1>
-              <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <a class="btn btn-large btn-primary" href="http://www.bootcss.com/examples/carousel.html#">Sign up today</a>
+              <h1>平面设计</h1>
+              <p class="lead">凭借丰富的经验与年轻而又富于创意的大脑，我们承接海报设计、书籍排版、UI设计、Icon设计等平面设计委托。用独到的视角有力地传播。</p>
+              <a class="btn btn-large btn-primary" href="/index_html/intro.html#graphic">了解更多</a>
             </div>
           </div>
         </div>
-        <div class="item">
+          <div class="item">
           <img src="img/slide-02.jpg" alt="">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Another example headline.</h1>
-              <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <a class="btn btn-large btn-primary" href="http://www.bootcss.com/examples/carousel.html#">Learn more</a>
+              <h1>影像制作</h1>
+              <p class="lead">专业的器材、丰富的实战经验，我
+                  们可为你提供专业的图片拍摄、短片拍摄计划.你甚至可以把我们纳入你的活动筹备小组，由我们负责影音记录。</p>
+              <a class="btn btn-large btn-primary" href="/index_html/intro.html#media">了解更多</a>
             </div>
           </div>
         </div>
-        <div class="item">
+          <div class="item">
           <img src="img/slide-03.jpg" alt="">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>网络技术中心</h1>
+              <p class="lead">拥有自己的维护团队与独立的服务器配备，我们进行基于互联网的服务开发。从媒体平台到程序托管终端，紧跟互联网发展潮流。</p>
+              <a class="btn btn-large btn-primary" href="/index_html/pro.html#internet">查看互联网应用</a>
+            </div>
+          </div>
+        </div>
+        <!--div class="item">
+          <img src="img/slide-04.jpg" alt="">
           <div class="container">
             <div class="carousel-caption">
               <h1>One more for good measure.</h1>
@@ -304,12 +339,36 @@
               <a class="btn btn-large btn-primary" href="http://www.bootcss.com/examples/carousel.html#">Browse gallery</a>
             </div>
           </div>
+        </div-->
+          <div class="item">
+          <img src="img/slide-05.jpg" alt="">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1><font color=#000>宣传企划.</font></h1>
+              <p class="lead"><font color=#000>想要整套的宣传企划？<br /></font><br/></p>
+              <a class="btn btn-large btn-primary" href="/index_html/pro.html#all">查看案例</a>
+            </div>
+          </div>
         </div>
       </div>
-      <a class="left carousel-control" href="http://www.bootcss.com/examples/carousel.html#myCarousel" data-slide="prev">‹</a>
-      <a class="right carousel-control" href="http://www.bootcss.com/examples/carousel.html#myCarousel" data-slide="next">›</a>
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">‹</a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">›</a>
     </div><!-- /.carousel -->
-
+      
+      <!-- Modal -->
+<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+    <h3 id="myModalLabel">Modal header</h3>
+  </div>
+  <div class="modal-body">
+    <p>One fine body…</p>
+  </div>
+  <div class="modal-footer">
+    <button class="btn" data-dismiss="modal" aria-hidden="true">关闭</button>
+    <button class="btn btn-primary">Save changes</button>
+  </div>
+</div>
 
 
     <!-- Marketing messaging and featurettes
