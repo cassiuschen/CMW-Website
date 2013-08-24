@@ -62,6 +62,7 @@ a:hover {
 h1 {
   margin: 0.67em 0;
   font-size: 2em;
+  font-family: "Hiragino Sans GB W3";
 }
 
 abbr[title] {
