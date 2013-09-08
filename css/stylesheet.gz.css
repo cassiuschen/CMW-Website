@@ -1,6 +1,6 @@
 /**
- * WWW Stylesheet
- * http://diy.org/
+ * 
+ * 
  *
  * /css/www/stylesheet.css
  */
@@ -22,15 +22,7 @@
 /**
  * Libraries
  */
-/*
- * Bootstrap v2.0.2
- *
- * Copyright 2012 Twitter, Inc
- * Licensed under the Apache License v2.0
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Designed and built with all the love in the world @twitter by @mdo and @fat.
- */
+
 article,
 aside,
 details,
@@ -9603,7 +9595,7 @@ html.modal-active {
   text-shadow: 0 10px 45px rgba(0, 0, 0, 0.8);
 }
 .splash #logo a {
-  background-image: url(/images/www/splash/logo_patch.png);
+  background-image: url(../img/logo_patch.png);
 }
 .splash .featured-block {
   position: absolute;

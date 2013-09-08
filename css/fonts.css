@@ -1,18 +1,18 @@
 @font-face {
   font-family: 'ApexRounded';
-  src: url('https://dn4w9m3pydkww.cloudfront.net/apex-book.eot?11');
-  src: url('https://dn4w9m3pydkww.cloudfront.net/apex-book.eot?11#iefix') format('embedded-opentype'), url('https://dn4w9m3pydkww.cloudfront.net/apex-book.ttf?11') format('truetype'), url('https://dn4w9m3pydkww.cloudfront.net/apex-book.woff?11') format('woff'), url('https://dn4w9m3pydkww.cloudfront.net/apex-book.svg?11#font') format('svg');
+  src: url('../fonts/apex-book.eot');
+  src: url('../fonts/apex-book.eot#iefix') format('embedded-opentype'), url('../fonts/apex-book.ttf') format('truetype'), url('../fonts/apex-book.woff') format('woff');
   font-weight: normal;
 }
 @font-face {
   font-family: 'ApexRounded';
-  src: url('https://dn4w9m3pydkww.cloudfront.net/apex-medium.eot?11');
-  src: url('https://dn4w9m3pydkww.cloudfront.net/apex-medium.eot?11#iefix') format('embedded-opentype'), url('https://dn4w9m3pydkww.cloudfront.net/apex-medium.ttf?11') format('truetype'), url('https://dn4w9m3pydkww.cloudfront.net/apex-medium.woff?11') format('woff'), url('https://dn4w9m3pydkww.cloudfront.net/apex-medium.svg?11#font') format('svg');
+  src: url('../fonts/apex-medium.eot');
+  src: url('../fonts/apex-medium.eot#iefix') format('embedded-opentype'), url('../fonts/apex-medium.ttf') format('truetype'), url('../fonts/apex-medium.woff') format('woff');
   font-weight: 700;
 }
 @font-face {
   font-family: 'Icons';
-  src: url('./fonts/diy-regular.ttf');
-  src: url('https://dn4w9m3pydkww.cloudfront.net/diy-regular.eot?38#iefix') format('embedded-opentype'), url('./fonts/diy-regular.ttf?38') format('truetype'), url('https://dn4w9m3pydkww.cloudfront.net/diy-regular.woff?38') format('woff'), url('https://dn4w9m3pydkww.cloudfront.net/diy-regular.svg?38#diyregular') format('svg');
+  src: url('../fonts/diy-regular.ttf');
+  src: url('../fonts/diy-regular.ttf') format('truetype'), url('../fonts/diy-regular.woff?38') format('woff');
   font-weight: normal;
 }
