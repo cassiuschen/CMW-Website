@@ -9651,7 +9651,7 @@ html.modal-active {
   text-indent: 1000em;
   overflow: hidden;
   display: block;
-  background-image: url('/images/www/splash/ios.jpg');
+  background-image: url('../img/index.jpg');
   width: 220px;
   height: 76px;
   background-size: 100%;
