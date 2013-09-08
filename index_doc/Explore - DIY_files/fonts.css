@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'ApexRounded';
+  src: url('https://dn4w9m3pydkww.cloudfront.net/apex-book.eot?11');
+  src: url('https://dn4w9m3pydkww.cloudfront.net/apex-book.eot?11#iefix') format('embedded-opentype'), url('https://dn4w9m3pydkww.cloudfront.net/apex-book.ttf?11') format('truetype'), url('https://dn4w9m3pydkww.cloudfront.net/apex-book.woff?11') format('woff'), url('https://dn4w9m3pydkww.cloudfront.net/apex-book.svg?11#font') format('svg');
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'ApexRounded';
+  src: url('https://dn4w9m3pydkww.cloudfront.net/apex-medium.eot?11');
+  src: url('https://dn4w9m3pydkww.cloudfront.net/apex-medium.eot?11#iefix') format('embedded-opentype'), url('https://dn4w9m3pydkww.cloudfront.net/apex-medium.ttf?11') format('truetype'), url('https://dn4w9m3pydkww.cloudfront.net/apex-medium.woff?11') format('woff'), url('https://dn4w9m3pydkww.cloudfront.net/apex-medium.svg?11#font') format('svg');
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'Icons';
+  src: url('https://dn4w9m3pydkww.cloudfront.net/diy-regular.eot?38');
+  src: url('https://dn4w9m3pydkww.cloudfront.net/diy-regular.eot?38#iefix') format('embedded-opentype'), url('https://dn4w9m3pydkww.cloudfront.net/diy-regular.ttf?38') format('truetype'), url('https://dn4w9m3pydkww.cloudfront.net/diy-regular.woff?38') format('woff'), url('https://dn4w9m3pydkww.cloudfront.net/diy-regular.svg?38#diyregular') format('svg');
+  font-weight: normal;
+}
