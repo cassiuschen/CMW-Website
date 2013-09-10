@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'ApexRounded';
+  src: url('../fonts/apex-book.eot');
+  src: url('../fonts/apex-book.eot#iefix') format('embedded-opentype'), url('../fonts/apex-book.ttf') format('truetype'), url('../fonts/apex-book.woff') format('woff');
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'ApexRounded';
+  src: url('../fonts/apex-medium.eot');
+  src: url('../fonts/apex-medium.eot#iefix') format('embedded-opentype'), url('../fonts/apex-medium.ttf') format('truetype'), url('../fonts/apex-medium.woff') format('woff');
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'Icons';
+  src: url('../fonts/diy-regular.ttf');
+  src: url('../fonts/diy-regular.ttf') format('truetype'), url('../fonts/diy-regular.woff?38') format('woff');
+  font-weight: normal;
+}
