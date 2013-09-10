@@ -112,7 +112,7 @@ body.home .nav .header {
 }
 
 body.home .nav {
-    background-image:url(../img/bg-header2.png);
+    background-image:url(./bg-header2.png);
     background-position:center top;
     background-size:cover;
     background-repeat:no-repeat;
