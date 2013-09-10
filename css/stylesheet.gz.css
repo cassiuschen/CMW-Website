@@ -9491,7 +9491,7 @@ html.modal-active {
 
 }
 .splash body {
-  background: #212622 url(/images/www/backgrounds/skills/artist.png);
+  background: #212622 url(../img/artist.png);
   color: #fafafa;
   height: 100%;
   overflow: hidden;
