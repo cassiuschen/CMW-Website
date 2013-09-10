@@ -9491,7 +9491,7 @@ html.modal-active {
 
 }
 .splash body {
-  background: #212622 url(/images/www/backgrounds/skills/artist.png);
+  background: #212622 url(../img/artist.png);
   color: #fafafa;
   height: 100%;
   overflow: hidden;
@@ -9873,7 +9873,7 @@ html.modal-active {
   height: 252px;
   z-index: 1050;
   overflow: visible !important;
-  background-image: url(/images/www/backgrounds/skills/artist.png);
+  background-image: url(../img/artist.png);
   background-color: rgba(42, 42, 42, 0.95) !important;
   border-top: 1px solid rgba(255, 255, 255, 0.15);
   background-color: #2a2a2a;
@@ -10345,7 +10345,7 @@ html.modal-active {
   width: 380px;
   padding: 6px;
   background-color: #808080;
-  background-image: url(/images/www/backgrounds/noise.png);
+  background-image: url(../img/noise.png);
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
@@ -12180,22 +12180,22 @@ html.hq .skill-summary :last-child {
 html.hq.pole-artist #content,
 html.hq.skills #content,
 html.hq.page #content {
-  background-image: url(/images/www/backgrounds/skills/artist.png);
+  background-image: url(../img/skills/artist.png);
 }
 html.hq.pole-builder #content {
-  background-image: url(/images/www/backgrounds/skills/builder.png);
+  background-image: url(../img/skills/builder.png);
 }
 html.hq.pole-engineer #content {
-  background-image: url(/images/www/backgrounds/skills/engineer.png?2);
+  background-image: url(../img/skills/engineer.png?2);
 }
 html.hq.pole-hacker #content {
-  background-image: url(/images/www/backgrounds/skills/hacker.png);
+  background-image: url(../img/skills/hacker.png);
 }
 html.hq.pole-farmer #content {
-  background-image: url(/images/www/backgrounds/skills/farmer.png);
+  background-image: url(../img/skills/farmer.png);
 }
 html.hq.pole-scientist #content {
-  background-image: url(/images/www/backgrounds/skills/scientist.png);
+  background-image: url(../img/skills/scientist.png);
 }
 html.hq.fontface .skill .references li .meta {
   padding-left: 30px;
@@ -14677,7 +14677,7 @@ html.hq.error-page {
 
 }
 html.hq.error-page body {
-  background: #f2f2f2 url(/images/www/backgrounds/noise.png);
+  background: #f2f2f2 url(../img/noise.png);
   overflow-x: visible;
 }
 html.hq.error-page .illo {
